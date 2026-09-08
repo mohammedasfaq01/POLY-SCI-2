@@ -1,5 +1,5 @@
 // Poly-Sci Service Worker
-const CACHE_NAME = 'polysci-v2';
+const CACHE_NAME = 'polysci-v3';
 const PRECACHE_ASSETS = [
   '/',
   '/index.html',
@@ -31,8 +31,8 @@ self.addEventListener('activate', (event) => {
 self.addEventListener('fetch', (event) => {
   const url = new URL(event.request.url);
 
-  // CRITICAL HARD CONSTRAINT 7: Do NOT cache or interfere with YouTube player / iframe traffic
-  if (url.hostname.includes('youtube.com') || url.hostname.includes('googlevideo.com') || url.hostname.includes('ytimg.com')) {
+  // CRITICAL: Do NOT cache or interfere with YouTube player / iframe / media traffic
+  if (url.hostname.includes('youtube') || url.hostname.includes('googlevideo') || url.hostname.includes('ytimg') || url.hostname.includes('youtu.be') || url.hostname.includes('doubleclick') || url.hostname.includes('google.com')) {
     return;
   }
 
