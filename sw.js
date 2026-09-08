@@ -1,5 +1,5 @@
 // Poly-Sci Service Worker
-const CACHE_NAME = 'polysci-v1';
+const CACHE_NAME = 'polysci-v2';
 const PRECACHE_ASSETS = [
   '/',
   '/index.html',
