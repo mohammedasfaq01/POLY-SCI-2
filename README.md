@@ -1,4 +1,4 @@
-# EduQuest — DUOLINGO BUT FOR ENGINEERS 🚀
+# Poly-Sci — DUOLINGO BUT FOR ENGINEERS 🚀
 
 > **Gamified STEM Mastery Platform** — bite-sized Duolingo-style learning for high school and undergraduate STEM.
 
@@ -13,7 +13,7 @@
 
 ## Live App
 
-👉 [https://polysci-7550.ai.studio](https://polysci-7550.ai.studio)
+👉 [https://poly-sci.vercel.app](https://poly-sci.vercel.app)
 
 ## Tech Stack
 
@@ -22,12 +22,6 @@
 - **KaTeX** for math rendering
 - **Google Fonts** — Plus Jakarta Sans, Newsreader, JetBrains Mono
 - **PWA** with Service Worker caching
-
-## Deploy on GitHub Pages
-
-1. Go to **Settings → Pages**
-2. Set source to **Deploy from a branch** → `main` / `root`
-3. Click **Save** — the site will be live at `https://mohammedasfaq01.github.io/POLY_SCI`
 
 ## Local Preview
 

@@ -1,7 +1,7 @@
 {
   "id": "/",
-  "name": "EduQuest STEM Learning",
-  "short_name": "EduQuest",
+  "name": "Poly-Sci STEM Learning",
+  "short_name": "Poly-Sci",
   "description": "Gamified Duolingo-style STEM learning platform with textbook-aligned curriculum and adaptive mastery.",
   "start_url": "/",
   "scope": "/",

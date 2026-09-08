@@ -1,5 +1,5 @@
-// EduQuest Service Worker
-const CACHE_NAME = 'eduquest-v1';
+// Poly-Sci Service Worker
+const CACHE_NAME = 'polysci-v1';
 const PRECACHE_ASSETS = [
   '/',
   '/index.html',
