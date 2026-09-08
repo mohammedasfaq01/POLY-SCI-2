@@ -1,0 +1,27 @@
+{
+  "id": "/",
+  "name": "EduQuest STEM Learning",
+  "short_name": "EduQuest",
+  "description": "Gamified Duolingo-style STEM learning platform with textbook-aligned curriculum and adaptive mastery.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "categories": ["education", "science", "utilities"],
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}
